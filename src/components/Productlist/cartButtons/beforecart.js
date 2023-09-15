@@ -9,7 +9,7 @@ const Beforecart = ({product}) => {
 
   return (
     <div className='before-cart'>
-    <button className='addcart' onClick={()=>dispatch(addTocart(product))}>Add cart</button>
+    <button className='addtocart' onClick={()=>dispatch(addTocart(product))}>Add cart</button>
   
 </div>
   )
