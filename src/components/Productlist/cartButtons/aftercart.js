@@ -6,10 +6,10 @@ const Cartafter = ({ cartItem }) => {
   const dispatch = useDispatch();
 
   return (
-    <div className='after-cart'>
-      <button className='cartcounterbtn' onClick={() => dispatch(decrement(cartItem.id))}>-</button>
-      <div className='cartcounter'>{cartItem.count}</div>
-      <button className='cartcounterbtn' onClick={() => dispatch(increment(cartItem.id))}>+</button>
+    <div className='after'>
+      <button className='cartcounter' onClick={() => dispatch(decrement(cartItem.id))}>-</button>
+      <div className='counter'>{cartItem.count}</div>
+      <button className='cartcounter' onClick={() => dispatch(increment(cartItem.id))}>+</button>
     </div>
   )
 }
