@@ -3,7 +3,7 @@ import './Productslist.css'
 import { useSelector } from 'react-redux';
 import Cartbuttons from './cartButtons';
 
-const Productlist = () => {
+const Listproduct = () => {
 
     const {cartList}=useSelector((state)=>state.cart)
     console.log(cartList)
@@ -23,4 +23,4 @@ const Productlist = () => {
   );
 }
 
-export default Productlist;
+export default Listproduct;
