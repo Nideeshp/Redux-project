@@ -1,4 +1,3 @@
-// cartSlice.js
 import { createSlice } from "@reduxjs/toolkit";
 
 const INITIAL_STATE = {
@@ -37,7 +36,6 @@ const cartSlice = createSlice({
       if (item && item.count > 1) {
         item.count--;
       } else if (item) {
-        // Remove the item from the cart if count becomes 0
         state.cartList = state.cartList.filter((item) => item.id !== productId);
       }
     },
