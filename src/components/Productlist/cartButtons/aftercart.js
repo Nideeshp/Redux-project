@@ -2,7 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { increment, decrement } from '../../../Redux-store/cart'
 
-const Aftercart = ({ cartItem }) => {
+const Cartafter = ({ cartItem }) => {
   const dispatch = useDispatch();
 
   return (
@@ -14,4 +14,4 @@ const Aftercart = ({ cartItem }) => {
   )
 }
 
-export default Aftercart
+export default Cartafter
