@@ -4,10 +4,10 @@ import {Productlist,Header} from './components';
 
 function App() {
   return (
-    <React.Fragment>
+    <>
       <Header/>
       <Productlist/>
-    </React.Fragment>
+    </>
   );
 }
 
