@@ -1,0 +1,52 @@
+/* cartbuttons.css */
+
+/* Styling for the "Add to Cart" button */
+.before-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .addcart {
+    background-color: #4caf50; /* Green background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 20px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add pointer cursor */
+    font-size: 16px; /* Set font size */
+  }
+  
+  .addcart:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Styling for the cart counter buttons */
+  .after-cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cartcounterbtn {
+    background-color: #3498db; /* Blue background color */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    padding: 10px 15px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Add pointer cursor */
+    font-size: 18px; /* Set font size */
+    margin: 0 5px; /* Add margin between buttons */
+  }
+  
+  .cartcounterbtn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  .cartcounter {
+    background-color: #ecf0f1; /* Gray background color for the counter */
+    color: #333; /* Text color for the counter */
+    font-size: 16px; /* Set font size */
+    padding: 5px 10px; /* Add padding */
+    border-radius: 5px; /* Add rounded corners */
+    margin: 0 5px; /* Add margin between buttons and counter */
+  }
+  
